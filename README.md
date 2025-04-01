@@ -8,7 +8,7 @@ References:
 1.  AMBA AXI Protocol specification:  https://zipcpu.com/doc/axi-spec.pdf
 2.  An Introduction to AMBA AXI:  https://developer.arm.com/documentation/102202/latest/
 3.  Gisselquist Tutorials, example:  https://zipcpu.com/formal/2018/12/28/axilite.html
-
+4.  Stuart Sutherland and Clifford Cummings papers, books.
 
 ## High level Overview of AXI(-Lite)
 1.  It is a *point-to-point protocol*, not a bus specification.  That is, the protocol only specifies the signal and timing, i.e., it defines individual channel interfaces between master(s) [controller(s)/manager(s)] and slave(s) [peripheral(s)/subordinate(s)].  The arbitration and interconnect fabric (if present) is external to the protocol itself.

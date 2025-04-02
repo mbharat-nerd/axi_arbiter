@@ -2,7 +2,7 @@
 // for compatibility with Vivado
 // Vivado does not support loop indices in always_comb etc.
 
-module axi_arbiter #(
+module axi_lite_arbiter #(
   parameter int ADDR_WIDTH = 32,
   parameter int DATA_WIDTH = 32,
   parameter bit REGISTER_OUTPUTS = 0
@@ -104,4 +104,4 @@ module axi_arbiter #(
   assign m_if[0].RVALID = (grant == 1'b0) ? s_if.RVALID : 1'b0;
   assign m_if[1].RVALID = (grant == 1'b1) ? s_if.RVALID : 1'b0;
 
-endmodule : axi_arbiter
+endmodule : axi_lite_arbiter

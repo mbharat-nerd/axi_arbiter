@@ -12,7 +12,7 @@ module tb_axi_lite_arbiter;
   axi_lite_if #(.ADDR_WIDTH(32), .DATA_WIDTH(32)) s_if(clk, rst_n);
 
   // DUT
-  axi_arbiter #(
+  axi_lite_arbiter #(
     .REGISTER_OUTPUTS(0)
   ) dut (
     .clk(clk),

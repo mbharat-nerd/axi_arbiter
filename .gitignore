@@ -3,6 +3,6 @@
 ./src/*~
 ./sim/*~
 ./syn/fpga/zedboard/*~
-./syn/fpga/zedboard/zedAxiArbiter
+./syn/fpga/zedboard/zedAxiArbiter/
 ./syn/fpga/zedboard/vivado*
 

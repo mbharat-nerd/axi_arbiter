@@ -8,8 +8,8 @@ add_files -norecurse ../../../src/sv_pipeline.sv
 add_files -norecurse ./zedAxiArbiter.sv
 update_compile_order -fileset sources_1
 
-# Simulation files (non-synthesizable)
-#add_files -fileset sim_1 -norecurse ./sim/zedAxiArbiter_tb.sv
+# Simulation/UVM files (non-synthesizable)
+add_files -fileset sim_1 -norecurse ../../../sim/tb_axi_arbiter.sv
 
 # Add constraints
 add_files -fileset constrs_1 -norecurse ./zedAxiArbiter.xdc

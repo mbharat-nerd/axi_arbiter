@@ -34,7 +34,7 @@ References:
 
 It is recommended to go through [AXI Arbiter Details](./doc/axi_arbiter_details.md) next.
 
-**We primarily test on AMD-Xilinx Zedboard, so the overall design is driven by language (SystemVerilog, UVM) support in Vivado (which is minimal compared to commercial tools like Questa)**
+**Although, we primarily test on AMD-Xilinx Zedboard, simulation is Questa Intel Starter FPGA Edition, so we can leverage UVM.**
 
 
 

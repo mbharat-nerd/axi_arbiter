@@ -34,7 +34,3 @@ To start out in this design, we focused on AXI-Lite MM (Memory-Mapped) priority 
 
 ## Design of the `AXI-Lite MM` Priority Based Arbiter
 
-
-
-
-
